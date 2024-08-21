@@ -1,7 +1,7 @@
 const { Sequelize, DataTypes } = require('sequelize')
 
-const sequelize = new Sequelize('gamemerchstore', 'user', 'thisisforuserforthewebpj111', {
-	host: 'localhost',
+const sequelize = new Sequelize('db_aac510_gmstore', 'aac510_gmstore', 'dsadsa123', {
+	host: 'mysql8001.site4now.net',
 	dialect: 'mysql',
 	logging: false,
 	define: {
@@ -38,3 +38,5 @@ const DbContext = {
 }
 
 module.exports = { DbContext, sequelize }
+
+// fibis64120@segichen.com
